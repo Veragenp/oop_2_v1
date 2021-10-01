@@ -1,5 +1,9 @@
 package ru.netology.domain;
 
 public class Like {
-    private int yesNoLike;
+    private boolean yesNoLike;
+    private int count;
+    private boolean canLike;
+    private boolean canPublish;
+
 }
