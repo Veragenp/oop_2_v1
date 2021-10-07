@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class Comment {
+public class CommentsInfo {
     private int idComment;
     private int lengthComment;
     private int letterSymbol;

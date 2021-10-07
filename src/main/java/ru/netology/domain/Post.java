@@ -1,6 +1,15 @@
 package ru.netology.domain;
 
 public class Post {
+    private CommentsInfo commentsInfo;
+    private Copyright copyright;
+    private Like like;
+    private ViewInfo viewInfo;
+    private Subscribe subscribe;
+    private Toshare toshare;
+    private Complain complain;
+    private Filter filter;
+    private Donut donut;
     private int id;
     private int ownerID;
     private int fromID;
